@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sass</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="./img/logo.png" alt="Logo" width="50">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li>
+              <a class="is-active" href="#home">Inicio</a>
+            </li>
+            <li>
+              <a href="#nosotros">Nosotros</a>
+            </li>
+            <li>
+              <a href="#hablemos">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">Saber más</button>
+      </div>
+    </div>
+  </header>
+  <main class="wrapper">
+    <section class="section" id="home">
+      <div class="section--description">
+        <h2>Hola soy Juan</h2>
+        <p>Estoy usando Sass para desarrollar esta web demostrativa.</p>
+      </div>
+      <div class="section--image">
+        <img src="./img/juan.png" alt="Foto de Juan">
+      </div>
+    </section>
+    <section class="section" id="nosotros">
+      <div class="section--image">
+        <img src="./img/larnu.webp" alt="Foto de Juan">
+      </div>
+      <div class="section--description">
+        <h2>Nosotros</h2>
+        <p>Estamos haciendo el bootcamp de LarnU.</p>
+      </div>
+    </section>
+    <section class="section" id="hablemos">
+      <div class="Form">
+        <form action="" method="GET" class="form" id="contacto">
+          <h2 class="title">Hablemos</h2>
+          <label>
+            Nombre Completo
+            <input required name="name" id="form-name" type="text" placeholder="Juan">
+          </label>
+          <label>
+            Correo electrónico
+            <input required name="name" id="form-email" type="email" placeholder="Email">
+          </label>
+          <label>
+            ¿Qué buscas?
+            <textarea required name="menssage" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+          </label>
+          <button class="button" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
