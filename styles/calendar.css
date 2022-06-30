@@ -1,4 +1,4 @@
-.miniCalendar {
+.mini-calendar {
   --cellSize: 1.75rem;
   max-inline-size: 12.25rem;
   margin: auto;
@@ -7,23 +7,30 @@
   border-radius: .4rem;
 }
 
-.miniCalendar-date {
+.mini-calendar-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: .25rem;
+}
+
+.mini-calendar__date {
   background: var(--greenDark);
   color: var(--white);
   padding: .5rem;
   border-radius: .3rem;
 }
 
-.mini-calendar-navigation--button {
+.mini-calendar__navigation__button {
   margin: auto 0;
   margin: 0;
 }
 
-.mini-calendar-navigation--button img:active {
+.mini-calendar__navigation__button img:active {
   transform: scale(.9);
 }
 
-.miniCalendar-header {
+.mini-calendar-header {
   display: grid;
   grid-template-columns: repeat(7, var(--cellSize));
   grid-template-rows: var(--cellSize);
@@ -32,35 +39,28 @@
   margin-block-end: .25rem;
 }
 
-.miniCalendar-status {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-inline-start: .25rem;
-}
-
-.miniCalendar-weekDay {
+.mini-calendar-header__weekDay {
   color: var(--white);
 }
 
-.miniCalendar-month {
+.mini-calendar-month {
   display: grid;
   grid-template-columns: repeat(7, var(--cellSize));
   grid-template-rows: repeat(6, var(--cellSize));
   text-align: center;
 }
 
-.miniCalendar-monthDay {
+.mini-calendar-month__Day {
   line-height: var(--cellSize);
   color: var(--white);
 }
 
-.miniCalendar-monthDay.is-selected {
+.mini-calendar-month__Day--selected {
   background: var(--greenDark);
   color: var(--white);
   border-radius: 50%;
 }
 
-.miniCalendar-monthDay.is-inactive {
+.mini-calendar-month__Day--inactive {
   color: var(--dark);
 }
