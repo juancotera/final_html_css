@@ -1,5 +1,5 @@
 .about {
-  background-image: url('../img/about-background.jpg');
+  background-image: url('../img/about-background_dos.jpg');
 }
 
 .about--description {
@@ -56,7 +56,7 @@
 @media screen and (min-width: 768px) {
   .about--image {
     background: none;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(10px);
     margin-bottom: 2rem;
   }
 }
