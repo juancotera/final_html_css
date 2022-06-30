@@ -1,6 +1,5 @@
 .about {
   background-image: url('../img/about-background.jpg');
-  block-size: 100vh;
 }
 
 .about--description {
@@ -10,7 +9,7 @@
   border-radius: .5rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   padding: 1.5rem;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 }
 
 .about--description h2, span, p {
@@ -44,7 +43,6 @@
   overflow: hidden;
   padding: 1.5rem;
   border-radius: 1rem;
-  margin-bottom: 2.5rem;
 }
 
 .about--image h2 {
@@ -59,11 +57,7 @@
   .about--image {
     background: none;
     backdrop-filter: blur(50px);
-    padding: 4rem 0;
-  }
-
-  .about--image h2 {
-    margin: 2rem 0;
+    margin-bottom: 2rem;
   }
 }
 
@@ -72,6 +66,7 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+    height: 100vh;
   }
 
   .about--description {

@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;400;600;700&family=Roboto:wght@100;300;400;700&display=swap');
 @import 'wrapper.css';
+@import 'container.css';
 @import 'header.css';
 @import 'menu.css';
 @import 'hero.css';
 @import 'steps.css';
 @import 'about.css';
 @import 'card.css';
+@import 'form.css';
+@import 'footer.css';
 
 :root {
   --white: #ffffff;
