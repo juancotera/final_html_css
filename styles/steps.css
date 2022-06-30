@@ -18,6 +18,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .steps {
+    border-radius: .5rem;
+    padding: 1.5rem;
+  }
   .steps--content {
     gap: 1rem;
   }

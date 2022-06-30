@@ -1,6 +1,6 @@
 .hero {
   background: var(--gradiantHome);
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
 }
 
 .container {
@@ -51,6 +51,7 @@
 @media screen and (min-width: 1024px) {
   .hero {
     height: calc(100vh - 11rem);
+    display: flex;
   }
 
   .container {
@@ -58,7 +59,6 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
-    margin: 5rem 0;
     height: 100%;
   }
 

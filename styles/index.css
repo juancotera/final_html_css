@@ -4,12 +4,20 @@
 @import 'menu.css';
 @import 'hero.css';
 @import 'steps.css';
+@import 'about.css';
+@import 'card.css';
 
 :root {
   --white: #ffffff;
   --green: #43F8A2;
   --greenDark: #102A3E;
+  --arid: #E58E21;
+  --orange: #da7420;
   --gradiantHome: radial-gradient(48.82% 72.42% at 50% 50%, #268369 0%, #102A3E 100%);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,10 +25,25 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .button-stiky {
+    position: fixed;
+    right: 1%;
+    top: 93%;
+    background: var(--green);
+    padding: .5rem;
+    border-radius: .2rem;
+    color: var(--greenDark);
+    font-weight: 700;
+    margin: 1rem;
+  }
 }
