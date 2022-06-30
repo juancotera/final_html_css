@@ -1,0 +1,29 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.steps--content {
+  background: var(--white);
+  border-radius: .2rem;
+  padding: .5rem;
+  display: flex;
+  gap: .5rem;
+}
+
+.steps--content p {
+  color: var(--greenDark);
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1024px) {
+  .steps--content {
+    gap: 1rem;
+  }
+
+  .steps--content p {
+    font-weight: 500;
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .menu li a {
+    color: var(--white);
+    font-weight: 100;
+  }
+
+  .menu li a:hover {
+    border-bottom: 1px solid var(--white);
+  }
+
+  .menu li a:active {
+    font-size: .95rem;
+  }
+
+  .menu li a:focus {
+    border-bottom: 1px solid var(--white);
+  }
+}

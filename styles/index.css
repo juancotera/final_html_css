@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;400;600;700&family=Roboto:wght@100;300;400;700&display=swap');
+@import 'wrapper.css';
+@import 'header.css';
+@import 'menu.css';
+@import 'hero.css';
+@import 'steps.css';
+
 :root {
+  --white: #ffffff;
   --green: #43F8A2;
-  /* --greenTwo: #40E19B;
-  --greenTrhee: #3ACA8E;
-  --greenFour: #34B585;
-  --greenFive: #2C9B76;
-  --greenSix: #28856B;
-  --greenSeven: #206E5F;
-  --greenEight: #1B5755;
-  --greenNine: #16404B; */
   --greenDark: #102A3E;
-  --gradiantHome: radial-gradient(var(--green) 0%, var(--greenDark) 100%);
+  --gradiantHome: radial-gradient(48.82% 72.42% at 50% 50%, #268369 0%, #102A3E 100%);
 }
 
 body {
-  background: var(--gradiantHome);
-  border: 1px solid red;
-  min-block-size: 100vh;
   margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

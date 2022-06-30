@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sass</title>
+  <title>Adopta un árbol</title>
   <link rel="stylesheet" href="./styles/index.css">
 </head>
 
@@ -13,43 +13,71 @@
   <header class="header">
     <div class="wrapper">
       <div class="header-content">
-        <img src="./img/logo.png" alt="Logo" width="50">
+        <h1 class="title">Adopta un árbol</h1>
         <nav class="menu" aria-label="main-navigation">
           <ul>
             <li>
-              <a class="is-active" href="#home">Inicio</a>
+              <a class="is-active" href="#home">Home</a>
             </li>
             <li>
-              <a href="#nosotros">Nosotros</a>
+              <a href="#nosotros">About</a>
             </li>
             <li>
-              <a href="#hablemos">Hablemos</a>
+              <a href="#hablemos">Contact</a>
             </li>
           </ul>
         </nav>
-        <button class="button">Saber más</button>
       </div>
     </div>
   </header>
-  <main class="wrapper">
-    <section class="section" id="home">
-      <div class="section--description">
-        <h2>Hola soy Juan</h2>
-        <p>Estoy usando Sass para desarrollar esta web demostrativa.</p>
-      </div>
-      <div class="section--image">
-        <img src="./img/juan.png" alt="Foto de Juan">
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrapper">
+        <div class="container">
+          <div class="hero--description">
+            <h2>Adopta un árbol</h2>
+            <img src="./img/home-a.png" alt="Foto hombre plantando">
+            <p>Adopta un árbol en unos simples pasos y reforestemos nuestras montañas de Matucana...</p>
+          </div>
+          <div class="hero--image">
+            <span>Aprende como...</span>
+            <div class="steps">
+              <div class="steps--content">
+                <img src="./img/ejemplar.png" alt="">
+                <p>Haste de un ejemplar, tenemos varias especies...</p>
+              </div>
+              <div class="steps--content">
+                <img src="./img/sembrar.png" alt="">
+                <p>Nosotros lo plataremos, en un lugar estratégico...</p>
+              </div>
+              <div class="steps--content">
+                <img src="./img/cuidar.png" alt="">
+                <p>Mantente al tanto del proceso, y crecimiento de tu adoptado...</p>
+              </div>
+              <div class="steps--content">
+                <img src="./img/visitar.png" alt="">
+                <p>Visitalo cuando quieras, esta cerca a Lima...</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="section" id="nosotros">
-      <div class="section--image">
-        <img src="./img/larnu.webp" alt="Foto de Juan">
-      </div>
-      <div class="section--description">
-        <h2>Nosotros</h2>
-        <p>Estamos haciendo el bootcamp de LarnU.</p>
+
+    <section class="about" id="nosotros">
+      <div class="wrapper">
+        <div class="section--image">
+          <img src="./img/larnu.webp" alt="Foto de Juan">
+        </div>
+        <div class="section--description">
+          <h2>Nosotros</h2>
+          <p>Estamos haciendo el bootcamp de LarnU.</p>
+        </div>
       </div>
     </section>
+
+    <!--
     <section class="section" id="hablemos">
       <div class="Form">
         <form action="" method="GET" class="form" id="contacto">
@@ -69,7 +97,7 @@
           <button class="button" type="submit">Enviar mensaje</button>
         </form>
       </div>
-    </section>
+    </section> -->
   </main>
 </body>
 
